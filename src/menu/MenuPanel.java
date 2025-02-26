@@ -43,7 +43,7 @@ public class MenuPanel extends JPanel {
         modePanel.setOpaque(false);
 
         classicaButton = new JRadioButton("Classica");
-        campagnaButton = new JRadioButton("Campagna");
+        campagnaButton = new JRadioButton("Campagna" + " (work in progress..)");
 
         gameModeGroup = new ButtonGroup();
         gameModeGroup.add(classicaButton);
